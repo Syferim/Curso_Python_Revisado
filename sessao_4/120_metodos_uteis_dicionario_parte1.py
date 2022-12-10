@@ -15,7 +15,7 @@ aula 2
 shallow copy - cópia raza
 deep copy - cópia profunda
 '''
- import copy
+import copy
 
 pessoa = {
     'nome': 'Luiz Otávio',
@@ -44,10 +44,10 @@ d1 = {
     'c2': 1,
     'l1': [0, 1, 2],
 }
-d2 = copy.cd1
+d2 = d1.copy()
 
 d2['c1'] = 1000
-d2['11'][1] = 9999
+d2['l1'][1] = 9999
 
 print(d1)
-print(21)
+print(d2)
