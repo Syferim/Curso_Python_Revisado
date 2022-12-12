@@ -18,4 +18,11 @@ p1 = {
 #     'nome': 'novo valor', # atualiza o valor de nome
 #     'idade': 30, # adiciona uma nova chave e valor
 # })
+# print(p1)
+
+# p1.update(nome='novo valor', idade=30)
+# print(p1)
+
+tupla = (('nome', 'novo valor'), ('idade', 30))
+p1.update(tupla)
 print(p1)
