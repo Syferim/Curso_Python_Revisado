@@ -1,4 +1,6 @@
 # Generator expression, Iterables e Iterators em Python
+# Todo generator é um Iterator, mas nem todo Iterator é um Generator
+
 iterable = ['Eu', 'Tenho', '__iter__']
 iterator = iterable.__iter__() #tem __iter__ e __next__
 iterator = iter(iterable) # O mesmo comando de cima, só que mais facil de ler
