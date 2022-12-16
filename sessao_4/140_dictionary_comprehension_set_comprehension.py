@@ -7,11 +7,12 @@ produto = {
 }
 
 dc = {
-    chave: valor
-    if isinstance(valor, (int, float)) else valor.upper()
+    chave: valor.upper()
+    if isinstance(valor, str) else valor
     for chave, valor
     in produto.items()
+    if chave != 'categoria'
 }
 
-print(produto)
+
 print(dc)

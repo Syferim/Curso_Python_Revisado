@@ -1,0 +1,3 @@
+string = 'luiz'
+
+print(string)
